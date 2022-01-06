@@ -88,7 +88,7 @@ to use the `M-x` version \[4\].
 
 You may have also heard of emacs lisp (elisp). It is a big topic and it
 is beyond the scope of this tutorial to teach you elisp. But what I want
-to tell you briefly is that we execute a function by pulling it inside a
+to tell you briefly is that we execute a function by putting it inside a
 pair of parentheses, like so \[5\]:
 
 ``` elisp
@@ -115,8 +115,8 @@ this task, let’s detour a bit first.
 
 ## Interactive Help System and Describe Key
 
-It is not that efficient to press <C-h l> to find the above information
-out. How can you find which key is bound to which emacs function
+It is not that efficient to press `C-h l` to find out the above
+information. How can we find which key is bound to which emacs function
 quickly? The “pros” would recommend you — almost like a knee-jerk
 reflex— read(ing) the *fine* manual (RTFM). Well, sure you can, the
 excellent [ESS Manual](https://ess.r-project.org/Manual/ess.html) has a
